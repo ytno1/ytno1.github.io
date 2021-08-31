@@ -212,7 +212,7 @@
             
 
   
-    <article id="post-yuque/xs0srt" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-yuque/hw64kf" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -220,7 +220,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/archives/5a5162b2.html" target="_blank">Sklearn.dataset-test</a>
+	  <a class="article-title" href="/archives/65ba0542.html" target="_blank">服务器跑实验-有用的代码</a>
   
     </h1>
   
@@ -228,8 +228,8 @@
 
   
   
-<a href="/archives/5a5162b2.html" class="archive-article-date">
-        <time datetime="2021-03-27T08:25:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-27</time>
+<a href="/archives/65ba0542.html" class="archive-article-date">
+        <time datetime="2021-04-10T08:14:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-10</time>
 </a>
 
   
@@ -241,9 +241,220 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <p>测试<br>测试<br>测试</p>
-<p>test</p>
+    <h1 id="开始之前"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前</h1><p>后期跑实验经常需要同时跑几条命令，使用脚本可以简化操作。</p>
+<h1 id="查看知识追踪领域数据集的情况"><a href="#查看知识追踪领域数据集的情况" class="headerlink" title="查看知识追踪领域数据集的情况"></a>查看知识追踪领域数据集的情况</h1><p>知识追踪数据集中的数据通常以三行形式呈现，每三行代表一个学生的做题情况，第一行表示做题数，第二行表示学生所做题目的 ID，第三行则表示学生的作答情况。如下方所示：<br>192            <br>742 504 1731 1955 559 2015 2944 2170 2051 1153 1046 607<br>0 0 0 0 0 0 0 0 0 1 0 0</p>
+    
+    
 
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">知识追踪</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">跑实验</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/知识追踪//" class="article-tag-list-link color5">知识追踪</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/知识追踪/跑实验//" class="article-tag-list-link color4">跑实验</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/archives/65ba0542.html">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-yuque/zzfmvm" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/archives/133d7289.html" target="_blank">2020-Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting(Haoyi Zhou et al.)</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/archives/133d7289.html" class="archive-article-date">
+        <time datetime="2021-04-06T06:03:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-06</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h1><p>现实世界中的许多应用都需要对长序列时间序列进行预测，例如用电量规划。长序列时间序列预测(LSTF)对模型的预测能力提出了很高的要求，即能够有效地捕捉到输出和输入之间精确的长期依赖耦合。最近的研究表明，Transformer 具有提高预测能力的潜力。然而，Transformer 有几个严重的问题阻碍了它直接应用于 LSTF，例如二次时间复杂度、高内存使用率以及编码器-解码器体系结构的固有限制。针对这些问题，我们设计了一种高效的基于 Transformer 的 LSTF 模型 Informer，该模型具有三个显著的特点：(1)ProbSparse 自我注意机制，在时间复杂度和内存使用量上达到 O(LlogL)，在序列依赖比对方面具有相当的性能。(2)自我注意提取通过将级联层输入减半来突出主导注意力，并有效地处理超长输入序列。(3)生成式解码器虽然概念简单，但对长时间序列的预测采用一次正向运算，而不是分步预测，大大提高了长序列预测的推理速度。在四个大规模数据集上的大量实验表明，Informer 的性能明显优于现有方法，为 LSTF 问题提供了一种新的解决方案。</p>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">知识追踪</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Informer</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/知识追踪//" class="article-tag-list-link color5">知识追踪</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/知识追踪/Informer//" class="article-tag-list-link color4">Informer</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/archives/133d7289.html">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-yuque/hufmcg" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/archives/e01bb831.html" target="_blank">plt.contourf()用法</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/archives/e01bb831.html" class="archive-article-date">
+        <time datetime="2021-04-02T14:17:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-02</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><p>contourf([X, Y,] Z, [levels], **kwargs)</p>
+<h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><p>contour()和 contourf()分别绘制等高线和填充等高线。除非另有说明，两个版本的函数签名和返回值是相同的。</p>
+    
     
 
     
@@ -263,7 +474,11 @@
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Sklearn</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Matplotlib</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">contourf()</a>
         		</li>
       		
 		</ul>
@@ -279,7 +494,11 @@
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="/categories/笔记/Sklearn//" class="article-tag-list-link color3">Sklearn</a>
+        			<a href="/categories/笔记/Matplotlib//" class="article-tag-list-link color1">Matplotlib</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/笔记/Matplotlib/contourf//" class="article-tag-list-link color1">contourf()</a>
         		</li>
       		
 		</ul>
@@ -288,7 +507,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/archives/5a5162b2.html">展开全文 >></a>
+      <a class="article-more-a" href="/archives/e01bb831.html">展开全文 >></a>
     </p>
     
 
@@ -318,7 +537,7 @@
 
 
   
-    <article id="post-yuque/vf58bd" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-yuque/ds3a74" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -326,7 +545,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/archives/e2427fbf.html" target="_blank">第一周：深度学习的实践层面 (Practical aspects of Deep Learning)</a>
+	  <a class="article-title" href="/archives/e3ef8953.html" target="_blank">np.meshgrid()用法</a>
   
     </h1>
   
@@ -334,8 +553,8 @@
 
   
   
-<a href="/archives/e2427fbf.html" class="archive-article-date">
-        <time datetime="2021-03-26T17:45:09.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-27</time>
+<a href="/archives/e3ef8953.html" class="archive-article-date">
+        <time datetime="2021-04-02T13:31:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-02</time>
 </a>
 
   
@@ -347,7 +566,8 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h3 id="1-1-训练，验证，测试集（Train-Dev-Test-sets）"><a href="#1-1-训练，验证，测试集（Train-Dev-Test-sets）" class="headerlink" title="1.1   训练，验证，测试集（Train / Dev / Test sets）"></a>1.1   训练，验证，测试集（Train / Dev / Test sets）</h3><p>注意划分比例<br>小数据集：按 70/30/0；60/20/20 比例划分比较合理<br>大规模数据集（百万条）：则按 98/1/1；99.5/0.25/0.25；99.5/0.4/0.1 比例划分才合理</p>
+    <h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><p>numpy.meshgrid(*xi, copy=True, sparse=False, indexing=’xy’)</p>
+<h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><p>当传入的参数是两个的时候，meshgrid 函数就是用两个坐标轴上的点在平面上画网格。当然我们可以指定多个参数，比如三个参数，那么就是用用三个一维的坐标轴上的点在三维平面上画网格。</p>
     
     
 
@@ -364,94 +584,15 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">深度学习笔记</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
         		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/archives/e2427fbf.html">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-yuque/uo3sk7" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/archives/d87f7e0c.html" target="_blank">test</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/archives/d87f7e0c.html" class="archive-article-date">
-        <time datetime="2021-03-26T17:45:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-27</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h2 id="标题-1"><a href="#标题-1" class="headerlink" title="标题 1"></a>标题 1</h2><p>内容</p>
-<h2 id="标题-2"><a href="#标题-2" class="headerlink" title="标题 2"></a>标题 2</h2><p>内容</p>
-
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
+      		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">机器学习</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Numpy</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">np.meshgrid()</a>
         		</li>
       		
 		</ul>
@@ -463,7 +604,15 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/机器学习//" class="article-tag-list-link color5">机器学习</a>
+        			<a href="/categories/笔记//" class="article-tag-list-link color3">笔记</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/笔记/Numpy//" class="article-tag-list-link color1">Numpy</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/笔记/Numpy/np-meshgrid//" class="article-tag-list-link color4">np.meshgrid()</a>
         		</li>
       		
 		</ul>
@@ -472,7 +621,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/archives/d87f7e0c.html">展开全文 >></a>
+      <a class="article-more-a" href="/archives/e3ef8953.html">展开全文 >></a>
     </p>
     
 
@@ -502,7 +651,7 @@
 
 
   
-    <article id="post-yuque/lxz85q" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-yuque/gehiqf" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -510,7 +659,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/archives/cd995b9a.html" target="_blank">RKT: Relation-Aware Self-Attention for Knowledge Tracing论文整理</a>
+	  <a class="article-title" href="/archives/bd1550fb.html" target="_blank">Matplotlib操作笔记</a>
   
     </h1>
   
@@ -518,8 +667,8 @@
 
   
   
-<a href="/archives/cd995b9a.html" class="archive-article-date">
-        <time datetime="2021-03-26T17:44:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-27</time>
+<a href="/archives/bd1550fb.html" class="archive-article-date">
+        <time datetime="2021-03-30T06:44:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-30</time>
 </a>
 
   
@@ -531,7 +680,8 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h1 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h1><p>为了应对最近的 Covid19 大流行，世界已经过渡到在线学习的新阶段。现在，比以往任何时候都更重要的是，以各种方式推动在线学习的极限，以保持教育系统的繁荣。在线学习的一个重要组成部分是知识追踪(KT)。KT 的目的是根据学生对一系列练习(称为互动)的回答来模拟学生的知识水平。学生在解决习题的同时获得技能，每一次这样的互动都会对学生未来解决习题的能力产生明显的影响。这种影响的特征是：1）互动中涉及的练习之间的关系； 2）学生的遗忘行为。传统的知识追踪研究没有明确地对这两个组成部分进行联合建模，以估计这些交互作用的影响。</p>
+    <h1 id="开始之前"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前</h1><p>学习 Matplotlib 绘图其实就是学习绘图函数中的参数！将参数活学活用，不同的参数搭配会产生不同的化学效应！</p>
+<h1 id="相关配置"><a href="#相关配置" class="headerlink" title="相关配置"></a>相关配置</h1>
     
     
 
@@ -548,11 +698,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">知识追踪</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">RKT</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Matplotlib</a>
         		</li>
       		
 		</ul>
@@ -564,11 +714,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/知识追踪//" class="article-tag-list-link color5">知识追踪</a>
+        			<a href="/categories/笔记//" class="article-tag-list-link color3">笔记</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="/categories/知识追踪/RKT//" class="article-tag-list-link color4">RKT</a>
+        			<a href="/categories/笔记/Matplotlib//" class="article-tag-list-link color1">Matplotlib</a>
         		</li>
       		
 		</ul>
@@ -577,112 +727,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/archives/cd995b9a.html">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-yuque/ot1kdf" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/archives/95ed0998.html" target="_blank">Performer论文整理</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/archives/95ed0998.html" class="archive-article-date">
-        <time datetime="2021-03-26T17:44:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-27</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h2 id="RETHINKING-ATTENTION-WITH-PERFORMERS"><a href="#RETHINKING-ATTENTION-WITH-PERFORMERS" class="headerlink" title="RETHINKING ATTENTION WITH PERFORMERS"></a>RETHINKING ATTENTION WITH PERFORMERS</h2><h3 id="ABSTRACT"><a href="#ABSTRACT" class="headerlink" title="ABSTRACT"></a>ABSTRACT</h3><p>我们介绍了 Performers——Transformer 体系结构，该体系结构可以以可证明的准确性估算常规（softmax）全等级关注变压器(full-rank-attention Transformers)，但仅使用线性（而不是二次）空间和时间复杂度，而无需依赖于诸如稀疏性或低等级的先验条件。为了近似 softmax 注意内核，Performers 使用一种新颖的通过正正交随机特征方法（Fast Attention Via positive Orthogonal Random features, FAVOR +）的快速注意方法，这对于可扩展内核方法可能是独立关注的。 FAVOR +还可以用于对 softmax 以外的可内核化注意力机制进行有效建模。这种表征能力对于在大型任务中首次准确地将 Softmax 与其他内核进行比较(常规 Transformes 所无法达到的)以及研究最优的注意力内核至关重要。Performers 是与常规 Transformers 完全兼容的线性体系结构，并具有强大的理论保证：无偏或近乎无偏的注意力矩阵估计、一致收敛和较低的估计方差。我们对 Performers 进行了一系列丰富的测试，包括从像素预测到文本模型再到蛋白质序列建模。我们用其他经过检验的有效稀疏和密集注意力方法展示了竞争结果，展示了 Performers 利用的新的注意力学习范式的有效性。</p>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">知识追踪</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Performer</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/知识追踪//" class="article-tag-list-link color5">知识追踪</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/知识追踪/Performer//" class="article-tag-list-link color5">Performer</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/archives/95ed0998.html">展开全文 >></a>
+      <a class="article-more-a" href="/archives/bd1550fb.html">展开全文 >></a>
     </p>
     
 
@@ -714,7 +759,7 @@
   
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/page/4/">上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/6/">下一页</a>
+      <a class="extend prev" rel="prev" href="/page/4/">上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" href="/page/6/">下一页</a>
     </nav>
   
 
@@ -866,10 +911,6 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Python语法</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Numpy</a>
               </li>
              
@@ -878,15 +919,19 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">知识追踪</a>
+                <a href="javascript:void(0)" class="js-tag color4">Python语法</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">DKVMN</a>
+                <a href="javascript:void(0)" class="js-tag color2">Pandas</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">np.meshgrid()</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">np.linspace</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -898,15 +943,15 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">np.linspace</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Sklearn</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">contourf()</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">知识追踪</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -930,6 +975,14 @@
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Python函数</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">素材</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Performer</a>
               </li>
              
@@ -942,11 +995,39 @@
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">字符串编解码</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">blog优化</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">机器学习</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">吴恩达深度学习</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">第一周：深度学习的实践层面</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">DKT-DSC</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">资源贴</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">PDF网站</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Python入门</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -958,11 +1039,43 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">深度学习笔记</a>
+                <a href="javascript:void(0)" class="js-tag color2">科研推荐网站</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">KT数据集</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Python List</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">DSCMN</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">2020 EDM Paper</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">SAKT</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">第二周：优化算法</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Python</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">爬虫</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">DKVMN</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -975,6 +1088,10 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Informer</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">小论文开题汇总</a>
               </li>
             
             <div class="clearfix"></div>
